@@ -1,4 +1,3 @@
-.vim
-====
+Link your .vimrc to this one:
 
-.vim
+    ln -s <project_dir>/.vimrc ~/.vimrc

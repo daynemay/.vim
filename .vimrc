@@ -1,6 +1,12 @@
 execute pathogen#infect()
 
+call pathogen#runtime_append_all_bundles()
+" generate helptags for everything in ‘runtimepath’
+call pathogen#helptags() 
+
+
 syntax on
+filetype plugin indent on
 
 :colors desert
 :set expandtab

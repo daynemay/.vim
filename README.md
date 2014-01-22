@@ -1,10 +1,13 @@
-# Check out this project
-git clone https://github.com/daynemay/.vim.git ~/.vim
+Check out this project
 
-# Update submodules
-cd ~/.vim
-git submodule init
-git submodule update
+    git clone https://github.com/daynemay/.vim.git ~/.vim
 
-# Link your .vimrc to this one:
-ln -s ~/.vim/.vimrc ~/.vimrc
+Update submodules
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
+
+Link your .vimrc to this one
+
+    ln -s ~/.vim/.vimrc ~/.vimrc

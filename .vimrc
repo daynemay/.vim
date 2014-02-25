@@ -13,6 +13,9 @@ filetype plugin indent on
 :set shiftwidth=4
 :set tabstop=4
 
+# Gradle colouring
+au BufNewFile,BufRead *.gradle setf groovy
+
 " Show line numbers
 :set number
 

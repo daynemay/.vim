@@ -12,6 +12,7 @@ filetype plugin indent on
 :set expandtab
 :set shiftwidth=4
 :set tabstop=4
+:set colorcolumn=80
 
 " Gradle colouring
 au BufNewFile,BufRead *.gradle setf groovy
